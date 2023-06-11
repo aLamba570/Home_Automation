@@ -190,6 +190,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    
+
     public void sendSignal(int message) {
         if(socket != null){
             if(socket.isConnected()) {
